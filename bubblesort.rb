@@ -21,6 +21,6 @@ end
 describe "bubble sort" do
   it "sorts through an array" do
     array = [34, 5, 33, 66, 7]
-    expect(array.bubble_sort).to eq([5, 7, 33, 34, 66])
+    expect(array.bubble_sort).to eq(array.sort)
   end
 end
